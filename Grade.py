@@ -7,7 +7,7 @@ Average=(Math+English+Physics)/3
 print(Name, Familyname, ("Your Average equals="),Average)
 if Average>=17:
     print("Your status is Great")
-    if 12<=Average<12:
-        print("Your status is Normal")
-        if Average<12:
-            print("Your status is fail")
+elif 12<=Average<17:
+    print("Your status is Normal")
+else:
+    print("Your status is fail")
