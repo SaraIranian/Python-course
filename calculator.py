@@ -20,7 +20,10 @@ for i in range(num):
         r=(math.factorial(x))
     if op=="sqrt":
         x=int(input("enter x:"))
-        r=(math.sqrt(x))
+        if x<0:
+            r="Error"
+        else:
+            r=(math.sqrt(x))
     if op=="+":
         a=float(input("enter a:")) 
         b=float(input("enter b:"))
