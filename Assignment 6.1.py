@@ -1,4 +1,7 @@
 while True:
+    op=input("start or exit")
+    if op=="exit":
+        break
     list=[]
     n=int(input("enter n ="))
     m=int(input("enter m ="))
