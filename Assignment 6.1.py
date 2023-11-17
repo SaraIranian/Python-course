@@ -1,5 +1,5 @@
 while True:
-    op=input("start or exit")
+    op=input("start or exit=")
     if op=="exit":
         break
     list=[]
